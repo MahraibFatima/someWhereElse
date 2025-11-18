@@ -1,11 +1,12 @@
 import './App.css'
 import Navbar from './components/navbar.jsx';
+import Hero from './components/hero.jsx';
 function App() {
 
   return (
     <>
-      <Navbar />
-      <h1 className="text-3xl font-bold underline text-align-center">Travel Somewhere Else from here!!!</h1>
+      <Navbar/>
+      <Hero />
     </>
   )
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-xl font-bold text-gray-800">YourLogo</span>
+            <span className="text-xl font-bold text-gray-800">Else</span>
           </div>
 
           {/* Desktop Menu */}

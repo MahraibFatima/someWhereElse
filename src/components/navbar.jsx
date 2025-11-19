@@ -4,9 +4,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-lg">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between h-16">
+    <nav className="rounded-2xl inset-1 bg-pink-200 shadow-lg mx-4 border">
+      <div className="rounded-2xl px-4">
+        <div className=" flex justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-xl font-bold text-gray-800">Else</span>

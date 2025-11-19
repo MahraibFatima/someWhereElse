@@ -1,8 +1,15 @@
+import Navbar from './navbar.jsx';
+
 const Hero = () => {    
     return (
         <div className="relative h-screen">
-            {/* Background Image with Tailwind bg-[url()] */}
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1726288300127-09bf1b76b1bf?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+            {/* Navbar with higher z-index */}
+            <div className="relative z-20 m-4">
+                <Navbar />
+            </div>
+            
+            {/* Background Image */}
+            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1726288300127-09bf1b76b1bf?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat z-0">
                 {/* Optional overlay */}
                 <div className="absolute inset-0 bg-pink bg-opacity-30"></div>
             </div>

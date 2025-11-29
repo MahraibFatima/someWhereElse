@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="rounded-2xl inset-1 bg-pink-200 shadow-lg mx-4 border">
+    <nav className="rounded-2xl inset-1 bg-white shadow-lg mx-4 border">
       <div className="rounded-2xl px-4">
         <div className=" flex justify-between h-16">
           {/* Logo */}

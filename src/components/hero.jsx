@@ -1,8 +1,7 @@
 import Navbar from './navbar.jsx';
-
 const Hero = () => {
     return (
-        <div className="h-screen mt-5">
+        <div className="h-screen">
             <div className="absolute inset-0 z-0">
                 <img
                     src="/public/assets/1.jpg"

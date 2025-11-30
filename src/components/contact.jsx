@@ -1,9 +1,12 @@
-import Hero from './hero.jsx';
 const Contact = () => {
   return (
     <div className="relative w-full h-screen">
       <div className="absolute inset-0 z-0">
-        <Hero />
+        <img
+          src="/public/assets/4.jpg"
+          alt="Travel Background"
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-opacity-40"></div>
       </div>
       

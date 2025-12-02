@@ -3,7 +3,7 @@ const Contact = () => {
     <div className="relative w-full h-screen">
       <div className="absolute inset-0 z-0">
         <img
-          src="/public/assets/4.jpg"
+          src="/assets/4.jpg"
           alt="Travel Background"
           className="w-full h-full object-cover"
         />

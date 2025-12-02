@@ -1,4 +1,4 @@
-import './App.css'
+import Navbar from './components/navbar.jsx';
 import Home from './components/home.jsx';
 import Contact from './components/contact.jsx';
 import About from './components/about.jsx';
@@ -9,7 +9,8 @@ function App() {
   return (
     <div>
 
-      <BrowserRouter>  
+      <BrowserRouter>
+        <Navbar />  
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />

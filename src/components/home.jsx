@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className="h-screen">
-            <div className="absolute inset-0 z-0">
+        <div className="relative h-screen">
+                <div className="absolute inset-0 z-0">
                 <img
-                    src="/public/assets/1.jpg"
+                    src="assets/1.jpg"
                     alt="Travel Background"
                     className="w-full h-full object-cover"
                 />
